@@ -16,10 +16,10 @@ Carrega os Elementos do App
 
 que a sessão esta iniciada
     Carrega os Elementos do App
-    #Open Application    ${EXECDIR}/app/app/BugBakery.exe
+    Open Application    ${EXECDIR}/app/BugBakery.exe
     #${handle} =   Start Process    app/app/BugBakery.exe
     #Wait For Process  handle=${handle}  timeout=10  on_timeout=10
-    Click           icone-app.png
+    #Click           icone-app.png
 
 Encerrar Sessão
     Stop Remote Server

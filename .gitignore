@@ -1,0 +1,8 @@
+backup
+logs
+sikuli_captured
+
+.html
+.xml
+**/*.png
+

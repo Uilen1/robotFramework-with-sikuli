@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210728 18:09:43.653" rpa="false" schemaversion="2">
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210728 18:26:47.420" rpa="false" schemaversion="2">
 <suite id="s1" name="registryUserFeature" source="C:\Users\Uilen.Moreira\Desktop\Projeto\robotFramework\src\tests\registryUserFeature.robot">
 <test id="s1-t1" name="Cenário 01: Vender o melhor combo">
 <kw name="Dado que a sessão esta iniciada" library="BDDpt-br" sourcename="Dado ${keywords}">
@@ -11,48 +11,48 @@
 <kw name="Add Image Path" library="SikuliLibrary">
 <arg>${EXECDIR}/resources/maps/openApp</arg>
 <doc>Add image path</doc>
-<msg timestamp="20210728 18:09:46.546" level="INFO">Params: [C:\Users\Uilen.Moreira\Desktop\Projeto\robotFramework/resources/maps/openApp]</msg>
-<status status="PASS" starttime="20210728 18:09:46.517" endtime="20210728 18:09:46.546"/>
+<msg timestamp="20210728 18:26:50.308" level="INFO">Params: [C:\Users\Uilen.Moreira\Desktop\Projeto\robotFramework/resources/maps/openApp]</msg>
+<status status="PASS" starttime="20210728 18:26:50.282" endtime="20210728 18:26:50.308"/>
 </kw>
 <kw name="Add Image Path" library="SikuliLibrary">
 <arg>${EXECDIR}/resources/maps/funcionario</arg>
 <doc>Add image path</doc>
-<msg timestamp="20210728 18:09:46.553" level="INFO">Params: [C:\Users\Uilen.Moreira\Desktop\Projeto\robotFramework/resources/maps/funcionario]</msg>
-<status status="PASS" starttime="20210728 18:09:46.546" endtime="20210728 18:09:46.553"/>
+<msg timestamp="20210728 18:26:50.317" level="INFO">Params: [C:\Users\Uilen.Moreira\Desktop\Projeto\robotFramework/resources/maps/funcionario]</msg>
+<status status="PASS" starttime="20210728 18:26:50.308" endtime="20210728 18:26:50.317"/>
 </kw>
 <kw name="Add Image Path" library="SikuliLibrary">
 <arg>${EXECDIR}/resources/maps/menu</arg>
 <doc>Add image path</doc>
-<msg timestamp="20210728 18:09:46.557" level="INFO">Params: [C:\Users\Uilen.Moreira\Desktop\Projeto\robotFramework/resources/maps/menu]</msg>
-<status status="PASS" starttime="20210728 18:09:46.553" endtime="20210728 18:09:46.557"/>
+<msg timestamp="20210728 18:26:50.325" level="INFO">Params: [C:\Users\Uilen.Moreira\Desktop\Projeto\robotFramework/resources/maps/menu]</msg>
+<status status="PASS" starttime="20210728 18:26:50.317" endtime="20210728 18:26:50.325"/>
 </kw>
 <kw name="Add Image Path" library="SikuliLibrary">
 <arg>${EXECDIR}/resources/maps/popup</arg>
 <doc>Add image path</doc>
-<msg timestamp="20210728 18:09:46.562" level="INFO">Params: [C:\Users\Uilen.Moreira\Desktop\Projeto\robotFramework/resources/maps/popup]</msg>
-<status status="PASS" starttime="20210728 18:09:46.557" endtime="20210728 18:09:46.562"/>
+<msg timestamp="20210728 18:26:50.333" level="INFO">Params: [C:\Users\Uilen.Moreira\Desktop\Projeto\robotFramework/resources/maps/popup]</msg>
+<status status="PASS" starttime="20210728 18:26:50.325" endtime="20210728 18:26:50.333"/>
 </kw>
 <kw name="Add Image Path" library="SikuliLibrary">
 <arg>${EXECDIR}/resources/maps/produto</arg>
 <doc>Add image path</doc>
-<msg timestamp="20210728 18:09:46.566" level="INFO">Params: [C:\Users\Uilen.Moreira\Desktop\Projeto\robotFramework/resources/maps/produto]</msg>
-<status status="PASS" starttime="20210728 18:09:46.562" endtime="20210728 18:09:46.566"/>
+<msg timestamp="20210728 18:26:50.340" level="INFO">Params: [C:\Users\Uilen.Moreira\Desktop\Projeto\robotFramework/resources/maps/produto]</msg>
+<status status="PASS" starttime="20210728 18:26:50.334" endtime="20210728 18:26:50.341"/>
 </kw>
-<status status="PASS" starttime="20210728 18:09:46.517" endtime="20210728 18:09:46.566"/>
+<status status="PASS" starttime="20210728 18:26:50.281" endtime="20210728 18:26:50.341"/>
 </kw>
 <kw name="Click" library="SikuliLibrary">
 <arg>icone-app.png</arg>
 <doc>Click</doc>
-<msg timestamp="20210728 18:09:47.723" level="INFO">Params: [icone-app.png]</msg>
-<msg timestamp="20210728 18:09:47.723" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1627506586997.png'/&gt;
-[log] CLICK on L[810,748]@S(0) (538 msec)</msg>
-<status status="PASS" starttime="20210728 18:09:46.566" endtime="20210728 18:09:47.724"/>
+<msg timestamp="20210728 18:26:51.507" level="INFO">Params: [icone-app.png]</msg>
+<msg timestamp="20210728 18:26:51.507" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1627507610761.png'/&gt;
+[log] CLICK on L[810,748]@S(0) (540 msec)</msg>
+<status status="PASS" starttime="20210728 18:26:50.341" endtime="20210728 18:26:51.507"/>
 </kw>
-<status status="PASS" starttime="20210728 18:09:46.517" endtime="20210728 18:09:47.725"/>
+<status status="PASS" starttime="20210728 18:26:50.280" endtime="20210728 18:26:51.508"/>
 </kw>
-<status status="PASS" starttime="20210728 18:09:46.517" endtime="20210728 18:09:47.725"/>
+<status status="PASS" starttime="20210728 18:26:50.280" endtime="20210728 18:26:51.508"/>
 </kw>
-<status status="PASS" starttime="20210728 18:09:46.517" endtime="20210728 18:09:47.725"/>
+<status status="PASS" starttime="20210728 18:26:50.279" endtime="20210728 18:26:51.508"/>
 </kw>
 <kw name="Quando abro o PDV" library="BDDpt-br" sourcename="Quando ${keywords}">
 <kw name="Run Keywords" library="BuiltIn">
@@ -62,16 +62,16 @@
 <kw name="Click" library="SikuliLibrary">
 <arg>menu-vendas.png</arg>
 <doc>Click</doc>
-<msg timestamp="20210728 18:09:49.283" level="INFO">Params: [menu-vendas.png]</msg>
-<msg timestamp="20210728 18:09:49.283" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1627506588582.png'/&gt;
-[log] CLICK on L[169,35]@S(0) (545 msec)</msg>
-<status status="PASS" starttime="20210728 18:09:47.728" endtime="20210728 18:09:49.283"/>
+<msg timestamp="20210728 18:26:53.133" level="INFO">Params: [menu-vendas.png]</msg>
+<msg timestamp="20210728 18:26:53.133" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1627507612417.png'/&gt;
+[log] CLICK on L[169,35]@S(0) (540 msec)</msg>
+<status status="PASS" starttime="20210728 18:26:51.510" endtime="20210728 18:26:53.133"/>
 </kw>
-<status status="PASS" starttime="20210728 18:09:47.727" endtime="20210728 18:09:49.284"/>
+<status status="PASS" starttime="20210728 18:26:51.510" endtime="20210728 18:26:53.134"/>
 </kw>
-<status status="PASS" starttime="20210728 18:09:47.726" endtime="20210728 18:09:49.284"/>
+<status status="PASS" starttime="20210728 18:26:51.509" endtime="20210728 18:26:53.134"/>
 </kw>
-<status status="PASS" starttime="20210728 18:09:47.726" endtime="20210728 18:09:49.284"/>
+<status status="PASS" starttime="20210728 18:26:51.508" endtime="20210728 18:26:53.134"/>
 </kw>
 <kw name="Então finalizo teste" library="BDDpt-br" sourcename="Então ${keywords}">
 <kw name="Run Keywords" library="BuiltIn">
@@ -82,21 +82,21 @@
 <kw name="Close Application" library="SikuliLibrary">
 <arg>BugBakery</arg>
 <doc>Close application</doc>
-<msg timestamp="20210728 18:09:50.509" level="INFO">Params: [BugBakery]</msg>
-<status status="PASS" starttime="20210728 18:09:49.286" endtime="20210728 18:09:50.509"/>
+<msg timestamp="20210728 18:26:54.377" level="INFO">Params: [BugBakery]</msg>
+<status status="PASS" starttime="20210728 18:26:53.136" endtime="20210728 18:26:54.377"/>
 </kw>
-<status status="PASS" starttime="20210728 18:09:49.286" endtime="20210728 18:09:50.509"/>
+<status status="PASS" starttime="20210728 18:26:53.136" endtime="20210728 18:26:54.377"/>
 </kw>
-<status status="PASS" starttime="20210728 18:09:49.286" endtime="20210728 18:09:50.509"/>
+<status status="PASS" starttime="20210728 18:26:53.136" endtime="20210728 18:26:54.377"/>
 </kw>
-<status status="PASS" starttime="20210728 18:09:49.285" endtime="20210728 18:09:50.509"/>
+<status status="PASS" starttime="20210728 18:26:53.135" endtime="20210728 18:26:54.377"/>
 </kw>
-<status status="PASS" starttime="20210728 18:09:49.285" endtime="20210728 18:09:50.509"/>
+<status status="PASS" starttime="20210728 18:26:53.134" endtime="20210728 18:26:54.378"/>
 </kw>
-<status status="PASS" starttime="20210728 18:09:46.500" endtime="20210728 18:09:50.510"/>
+<status status="PASS" starttime="20210728 18:26:50.262" endtime="20210728 18:26:54.378"/>
 </test>
 <doc>Feature de Cadastro do usuário</doc>
-<status status="PASS" starttime="20210728 18:09:43.654" endtime="20210728 18:09:50.510"/>
+<status status="PASS" starttime="20210728 18:26:47.421" endtime="20210728 18:26:54.378"/>
 </suite>
 <statistics>
 <total>

@@ -11,4 +11,4 @@ Abrir um arquivo exe
 
 *** Keywords ***
 Abro o executável
-    Run Process  app/app/BugBakery.exe
+    Run Process  app/BugBakery.exe

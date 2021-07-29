@@ -18,6 +18,11 @@ node(){
                  "########################################\n"
 
         }
+        post{
+            always {
+                robot archiveDirName: 'robot-plugin', outputPath: '.', overwriteXAxisLabel: ''
+            }
+        }
 
     }
     catch(Exception e){
